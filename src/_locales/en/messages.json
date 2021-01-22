@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Game Boy Camera Meets",
+    "description": "Extension name"
+  },
+  "extDesc": {
+    "message": "Google Meets through the lens of a Game Boy Camera.",
+    "description": "Extension description"
+  },
+  "detailDesc": {
+    "message": "Google Meets through the lens of a Game Boy Camera.",
+    "description": "Detailed description"
+  }
+}

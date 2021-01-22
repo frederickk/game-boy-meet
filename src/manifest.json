@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDesc__",
+  "version": "0.1.4",
+  "default_locale": "en",
+  "icons": {
+    "192": "icon-192.png",
+    "96": "icon-96.png",
+    "48": "icon-48.png"
+  },
+  "author": "Ken Frederick",
+  "content_security_policy": "script-src 'self'; script-src-elem 'self' data: blob:; worker-src 'self' data: blob:; object-src 'self'",
+  "content_scripts": [{
+    "matches": [
+      "https://meet.google.com/*",
+      "https://meet-autopush.corp.google.com/*",
+      "https://*.meet.sandbox.google.com/*",
+      "https://meet-preprod.sandbox.google.com/*",
+      "https://preprod.meet.sandbox.google.com/*"
+    ],
+    "js": [
+      "content.min.js"
+    ],
+    "css": [
+      "content.min.css"
+    ]
+  }],
+  "permissions": [
+    "https://meet.google.com/*"
+  ]
+}
