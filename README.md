@@ -5,9 +5,13 @@ Game Boy Meets
 
 ![Screenshot of Game Boy Meets](./assets/game-boy-meets_screenshot-00.png)
 
+![Screenshot of Game Boy Meets](./assets/game-boy-meets_screenshot-01.png)
+
 ### References
 
 - [Codepen Demo](https://codepen.io/frederickk/pen/PoGgvay)
+- [Pixel Face](https://fontstruct.com/fontstructions/show/1880352/crystal-pokefk-v4-1)
+
 - [BBC/VideoContext](https://github.com/bbc/VideoContext)
 - [Game Boy Camera](https://www.shadertoy.com/view/ttsSzr)
 - [GB-Dither](https://www.shadertoy.com/view/3lKcR3)

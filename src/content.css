@@ -10,8 +10,15 @@
   font-family: 'crystal-pokefk' !important;
 }
 
-.google-material-icons {
-  display: none !important;
+img.gb_uc + span {
+  top: -5px;
+}
+
+.google-material-icons,
+.material-icons-extended  {
+  /* display: none !important; */
+  opacity: 0 !important;
+  width: 0 !important;
 }
 
 .__game-boy-camera__canvas {
