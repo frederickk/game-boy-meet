@@ -32,10 +32,17 @@ module.exports = {
       use: [MiniCssExtractPlugin.loader, 'css-loader'],
     }, {
       test: /\.(eot|ttf|woff|woff2)$/i,
-      loader: 'url-loader',
-      options: {
-        limit: 8192,
-      },
+      use: [{
+        loader: 'file-loader',
+        options: {
+          name: '[name].[ext]',
+          outputPath: 'typeface/'
+        }
+      }],
+      // loader: 'url-loader',
+      // options: {
+      //   limit: 8192,
+      // },
     }],
   },
   plugins: [
@@ -55,7 +62,7 @@ module.exports = {
   },
   output: {
     path: path.join(__dirname, './src'),
-    publicPath: './src',
+    publicPath: 'chrome-extension://__MSG_@@extension_id__/',
     filename: './[name].min.js',
   },
 };
