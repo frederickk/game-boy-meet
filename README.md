@@ -3,11 +3,14 @@ Game Boy Meets
 
 ## Google Meets through the lens of a Game Boy Camera.
 
+[Install Extension for Chrome](https://chrome.google.com/webstore/detail/game-boy-camera-meets/geblndbhoeempcodbadbjmjfencilfko)
+
 ![Screenshot of Game Boy Meets](./assets/game-boy-meets_screenshot-00.png)
 
 ### References
 
 - [Codepen Demo](https://codepen.io/frederickk/pen/PoGgvay)
+- [Pixel Typeface](https://fontstruct.com/fontstructions/show/1880352/crystal-pokefk-v4-1)
 - [BBC/VideoContext](https://github.com/bbc/VideoContext)
 - [Game Boy Camera](https://www.shadertoy.com/view/ttsSzr)
 - [GB-Dither](https://www.shadertoy.com/view/3lKcR3)
