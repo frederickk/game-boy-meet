@@ -1,15 +1,18 @@
-Game Boy Camera Meets
+Game Boy Meets
 ==============
 
 ## Google Meets through the lens of a Game Boy Camera.
 
-![Screenshot of Game Boy Camera Meets](./assets/game-boy-camera_screenshot-00.png)
+[Install via Chrome Web Store](https://chrome.google.com/webstore/detail/geblndbhoeempcodbadbjmjfencilfko/publish-review?authuser=0)
+
+![Screenshot of Game Boy Meets](./assets/game-boy-meets_screenshot-00.png)
 
 ### References
 
 - [Codepen Demo](https://codepen.io/frederickk/pen/PoGgvay)
 - [BBC/VideoContext](https://github.com/bbc/VideoContext)
 - [Game Boy Camera](https://www.shadertoy.com/view/ttsSzr)
+- [GB-Dither](https://www.shadertoy.com/view/3lKcR3)
 - [webgbcam](https://github.com/Lana-chan/webgbcam)
 
 
@@ -22,3 +25,7 @@ Game Boy Camera Meets
 | `$ npm run build:chrome` | Compile (and uglify) necessary files into .zip only for Chrome |
 | `$ npm run build:firefox` | Compile (and uglify) necessary files into .zip only for Firefox |
 
+
+### License
+
+See [LICENSE](./LICENSE) for details.

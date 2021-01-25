@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "__MSG_extName__",
   "description": "__MSG_extDesc__",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "default_locale": "en",
   "icons": {
     "192": "icon-192.png",
@@ -26,7 +26,8 @@
       "content.min.css"
     ]
   }],
-  "permissions": [
-    "https://meet.google.com/*"
+  "web_accessible_resources": [
+    "content.min.css",
+    "typeface/*"
   ]
 }
