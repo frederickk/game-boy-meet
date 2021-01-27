@@ -1,3 +1,4 @@
+// TODO(frederickk): Allow end user to change resolution.
 export const size = {
   // w: 80,
   // h: 72,
@@ -6,8 +7,8 @@ export const size = {
 };
 export const textureBlob = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACAQAAAABazTCJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAAxJREFUeAFjdGBsAAABSgDDZcqZPAAAAABJRU5ErkJggg==';
 export const shader = {
-  title: 'Gameboy Camera',
-  description: 'https://www.shadertoy.com/view/ttsSzr',
+  title: 'Game Boy Camera',
+  description: 'https://www.shadertoy.com/view/ttsSzr and https://www.shadertoy.com/view/3lKcR3',
   vertexShader: `
     attribute vec2 a_position;
     attribute vec2 a_texCoord;

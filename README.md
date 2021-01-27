@@ -1,21 +1,20 @@
-Game Boy Meets
+Game Boy Meet
 ==============
 
-## Google Meets through the lens of a Game Boy Camera.
+## Google Meet through the lens of a Game Boy.
 
-[Install via Chrome Web Store](https://chrome.google.com/webstore/detail/geblndbhoeempcodbadbjmjfencilfko/publish-review?authuser=0)
+[Install Extension for Chrome](https://chrome.google.com/webstore/detail/game-boy-meet-meets/geblndbhoeempcodbadbjmjfencilfko)
 
-![Screenshot of Game Boy Meets](./assets/game-boy-meets_screenshot-00.png)
+![Screenshot of Game Boy Meet](./assets/game-boy-meet_screenshot-00.png)
 
 ### References
 
 - [Codepen Demo](https://codepen.io/frederickk/pen/PoGgvay)
-- [Pixel Face](https://fontstruct.com/fontstructions/show/1880352/crystal-pokefk-v4-1)
-
-- [BBC/VideoContext](https://github.com/bbc/VideoContext)
 - [Game Boy Camera](https://www.shadertoy.com/view/ttsSzr)
 - [GB-Dither](https://www.shadertoy.com/view/3lKcR3)
 - [webgbcam](https://github.com/Lana-chan/webgbcam)
+- [BBC/VideoContext](https://github.com/bbc/VideoContext)
+- [Pixel Typeface](https://fontstruct.com/fontstructions/show/1880352/crystal-pokefk-v4-1)
 
 
 ### Build

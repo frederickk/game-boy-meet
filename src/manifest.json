@@ -24,7 +24,8 @@
     ],
     "css": [
       "content.min.css"
-    ]
+    ],
+    "run_at": "document_end"
   }],
   "web_accessible_resources": [
     "content.min.css",

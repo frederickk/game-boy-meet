@@ -21,13 +21,13 @@ img.gb_uc + span {
   width: 0 !important;
 }
 
-.__game-boy-camera__canvas {
+.__game-boy-meet__canvas {
   image-rendering: -moz-crisp-edges;
   image-rendering: -webkit-crisp-edges;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
 
-.__game-boy-camera__canvas + video[autoplay][data-uid] {
+.__game-boy-meet__canvas + video[autoplay][data-uid] {
   display: none;
 }

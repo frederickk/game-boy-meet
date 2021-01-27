@@ -1,15 +1,13 @@
 import * as VideoContext from 'videocontext';
-import {shader, size, textureBlob} from './ts/game-boy-camera-defs';
+import {shader, size, textureBlob} from './ts/game-boy-meet-defs';
 
-export class GameBoyCamera {
+export class GameBoyMeet {
   private selector_ = 'video[autoplay][data-uid]';
 
   constructor() {
     this.watchBody_();
   }
   private createCanvas_(video: HTMLVideoElement) {
-    console.log('[Game Boy Camera]', video);
-
     if (video) {
       const canvas = document.createElement('canvas');
       canvas.setAttribute('width', size.w.toString());
@@ -28,14 +26,12 @@ export class GameBoyCamera {
       ctx.play();
 
       canvas.className = video.className;
-      canvas.classList.add('__game-boy-camera__canvas');
+      canvas.classList.add('__game-boy-meet__canvas');
       video.parentElement?.appendChild(canvas);
     }
   }
 
   private watchBody_() {
-    console.log('[Game Boy Camera]', 'watchBodyClass');
-
     const bodyClassObserver = new MutationObserver((mutations) => {
       if (mutations[0].addedNodes.length > 0) {
         mutations[0].addedNodes?.forEach(() => {
@@ -43,12 +39,8 @@ export class GameBoyCamera {
           videos.forEach((node) => {
             const video = (node as HTMLVideoElement);
             // const nextSibling = document.querySelector(`${video.tagName.toLowerCase()}.${video.className} + canvas`);
-
             if (!video.nextSibling) {
-              // console.log('<video/> NO <canvas/>', video.nextSibling, nextSibling);
               this.createCanvas_(video);
-            } else {
-              // console.log('<video/> YES <canvas/>', video.nextSibling, nextSibling);
             }
           });
         });
@@ -64,4 +56,4 @@ export class GameBoyCamera {
   }
 }
 
-new GameBoyCamera();
+new GameBoyMeet();

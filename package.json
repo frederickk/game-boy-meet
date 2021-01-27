@@ -1,11 +1,11 @@
 {
-  "name": "game-boy-meets",
-  "version": "0.1.5",
-  "description": "Google Meets through the lens of a Game Boy Camera.",
+  "name": "game-boy-meet",
+  "version": "0.1.6",
+  "description": "Google Meet through the lens of a Game Boy.",
   "main": "content.min.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/frederickk/game-boy-meets"
+    "url": "https://github.com/frederickk/game-boy-meet"
   },
   "scripts": {
     "start:dev": "concurrently \"npm run serve\" \"NODE_ENV=development webpack --watch\"",
@@ -14,10 +14,11 @@
     "build:prod": "NODE_ENV=production webpack",
     "build:chrome": "NODE_ENV=production webpack && npm run package:chrome",
     "build:firefox": "NODE_ENV=production webpack && npm run package:firefox",
-    "package": "./package.sh game-boy-meets all",
-    "package:chrome": "./package.sh game-boy-meets chrome",
-    "package:firefox": "./package.sh game-boy-meets firefox",
-    "push": "git add --all && git commit --amend --no-edit && git push origin primary"
+    "package": "./package.sh game-boy-meet all",
+    "package:chrome": "./package.sh game-boy-meet chrome",
+    "package:firefox": "./package.sh game-boy-meet firefox",
+    "push": "git add --all && git commit --amend --no-edit && git push origin primary",
+    "push:force": "git add --all && git commit --amend --no-edit && git push origin primary --force"
   },
   "keywords": [
     "chrome",
